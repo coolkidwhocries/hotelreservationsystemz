@@ -36,7 +36,7 @@ namespace SydneyHotel
         }
         static void Main(string[] args)
         {
-            Console.WriteLine(".................Welcome to Sydney Hotel...............");
+            Console.WriteLine(".................Welcome to Sydney Hotel!...............");
             Console.Write("\nEnter no. of Customer: ");
             int n = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("\n--------------------------------------------------------------------\n");
@@ -52,9 +52,9 @@ namespace SydneyHotel
 
                 Console.Write("Enter the number of nights: ");
                 rd[i].nights = Convert.ToInt32(Console.ReadLine());
-                if (!(rd[i].nights > 0) && (rd[i].nights <= 20))
+                if (!(rd[i].nights > 0) && (rd[i].nights <= 25))
                 {
-                    Console.Write("Number of nights in between 1 to 20: ");
+                    Console.Write("Number of nights in between 1 to 25: ");
 
                     Console.Write("Enter the number of nights: ");
                     rd[i].nights = Convert.ToInt32(Console.ReadLine());
